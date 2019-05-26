@@ -1,0 +1,23 @@
+{
+  "name": "rpg-soundboard",
+  "version": "1.0.0",
+  "description": "discord rpg soundboard",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.16.4",
+    "form-data": "^2.3.3",
+    "klaw-sync": "^6.0.0",
+    "node-fetch": "^2.3.0",
+    "opusscript": "0.0.6",
+    "pako": "^1.0.8",
+    "prism-media": "^1.0.0",
+    "setimmediate": "^1.0.5",
+    "tweetnacl": "^1.0.1",
+    "ws": "^6.1.3"
+  },
+  "devDependencies": {},
+  "author": "Alessandro De Francesco",
+  "scripts": {
+    "start": "node index.js"
+  }
+}
