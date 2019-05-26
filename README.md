@@ -9,7 +9,7 @@ Currently it supports only ".ogg" files encoded with OPUS (You can easily conver
 
 * [GIT](https://git-scm.com/downloads)
 * [Heroku Account](https://signup.heroku.com/)
-* [Heroku-CLI] (https://devcenter.heroku.com/articles/heroku-cli#download-and-install)
+* [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli#download-and-install)
 
 ## Installation
 
@@ -33,8 +33,9 @@ Currently it supports only ".ogg" files encoded with OPUS (You can easily conver
 3. Go to Bot -> Add Bot 
 3. Save the Token of the Bot
 4. Open a shell and Run `git clone https://github.com/AlessandroDeFrancesco/Nodejs-DiscordBot-template.git`
-5. 1 On Linux Ubuntu Run `export DISCORD_BOT_TOKEN="{your_bot_token}"`
-5. 2 On Windows Powershell Run `$env:DISCORD_BOT_TOKEN="{your_bot_token}"`
+5. Depends on your OS:
+    1. On Linux Ubuntu Run `export DISCORD_BOT_TOKEN="{your_bot_token}"`
+    2. On Windows Powershell Run `$env:DISCORD_BOT_TOKEN="{your_bot_token}"`
 6. Run `npm install`
 7. Run `npm start`
 
